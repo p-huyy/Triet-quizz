@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: triet-quizz
+    runtime: static
+    buildCommand: echo "Static HTML - no build required"
+    staticPublishPath: .
